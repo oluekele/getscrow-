@@ -1,6 +1,5 @@
 'use client'
 import React, { useState, useEffect } from 'react';
-import { LuArrowDownToLine } from "react-icons/lu";
 import { MdOutlineMenu } from "react-icons/md";
 import { IoClose } from "react-icons/io5";
 import Image from 'next/image';
@@ -40,7 +39,7 @@ const Header = () => {
           
         </div>
         <div className='lg:flex items-center hidden gap-10 text-[18px]'>
-        <h2><Link activeClass='active' spy={true} smooth={true} offset={-100} duration={500} href="home" className={window.scrollY < 500 ? "text-[#502ff5]" :'text[#0f0840] hover:text-[#502ff5]'}>Home</Link></h2>
+        <h2><Link activeClass='active' spy={true} smooth={true} offset={-100} duration={500} href="home" className="text-[#502ff5] text[#0f0840] hover:text-[#502ff5]">Home</Link></h2>
 
           <h2><Link activeClass='active' spy={true} smooth={true} offset={-100} duration={500} href="feature" className='text[#0f0840] hover:text-[#502ff5]'>Features</Link></h2>
 
