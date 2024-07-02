@@ -3,7 +3,7 @@ import React from 'react'
 import { MdOutlineStarPurple500 } from 'react-icons/md'
 import { FaGooglePlay } from 'react-icons/fa'
 import Link from 'next/link'
-import Sent from '@/public/assets/sent icon.svg'
+import SentIcon from '@/public/assets/Sent icon.svg'
 import Arrow from '@/public/assets/hero arrow.svg'
 import Element from '@/public/assets/hero element.svg'
 import Phone from '@/public/assets/phone-p-500.webp'
@@ -40,7 +40,7 @@ const HomePage = () => {
 
         <div className='relative flex lg:w-[40%] w-[80%] mx-auto mt-10 lg:mt-0 items-center justify-center gap-10 ml-[100px] lg:ml-0'>
           <div className='absolute lg:left-[-150px] left-[-50px] top-[-180px] bg-white rounded-md lg:w-[200px] w-[150px] flex flex-col items-center lg:p-10 p-5 z-[10]'>
-            <Image src={Sent} alt='...' width={50} height={50} className=' pb-3'/>
+            <Image src={SentIcon} alt='...' width={50} height={50} className=' pb-3'/>
             <p className='text-center'>
               $50.00 sent Successfully!
             </p>
