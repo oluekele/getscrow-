@@ -2,32 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+#btn{
+  background-image: linear-gradient(to right, #4e2ff5, #793aff);
+  transition: all 0.2s ease-in-out;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+#btn:hover{
+  color: black;
+  background-image: linear-gradient(to right, #ffb459, #ffb459) ;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+#play:hover{
+  background-image: linear-gradient(to right, #ffb459, #ffb459);
+  border: #ffb459;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.active{
+  color: #502ff5; 
+  padding-bottom: 0.5rem;
+}
+
+.navbar{
+  background-color: #fff;
+  position: sticky;
+  top: 0px;
+  
+}
+.none{
+  background-color: transparent;
+  position: sticky;
+  top: 0px;
+  
+}
+
+#home_bg{
+  background-image: url('../public/home_bg.webp');
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* #frame{
+  background-image: url('../public/assets/phone-frame.svg');
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 99;
+  
+} */
+
+#navbar_container{
+  z-index: 99999;
+}
+
+#video{
+  background-image: url("https://assets-global.website-files.com/635e20f77318521304947d8d/635e7fe2e19fbd717f0f8ceb_pexels-anthony-shkraba-production-compressesd-poster-00001.jpg&quot");
 }
