@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Satoshi";
+  src: url("../public//Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf"), format("regular");
+}
+
 #btn{
   background-image: linear-gradient(to right, #4e2ff5, #793aff);
   transition: all 0.2s ease-in-out;
@@ -41,19 +46,36 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-/* #frame{
-  background-image: url('../public/assets/phone-frame.svg');
+#pay_bg{
+  background-image: url('../public/assets/paytime_bg.webp');
   object-fit: cover;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: 99;
-  
-} */
+}
+
 
 #navbar_container{
   z-index: 99999;
 }
 
 #video{
+  /* background-image: url("https://assets-global.website-files.com/635e20f77318521304947d8d/635e7fe2e19fbd717f0f8ceb_pexels-anthony-shkraba-production-compressesd-poster-00001.jpg&quot"); */
+
   background-image: url("https://assets-global.website-files.com/635e20f77318521304947d8d/635e7fe2e19fbd717f0f8ceb_pexels-anthony-shkraba-production-compressesd-poster-00001.jpg&quot");
+}
+
+#scaleVendor{
+  animation: Vendor infinite 5s ease-in-out ;
+}
+
+@keyframes Vendor {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
 }

@@ -10,7 +10,7 @@ const Features = () => {
       <div className='w-[80%] mx-auto'>
         <div className='text-white font-medium pb-[80px]'>
           <h2 className='pb-2 text-[76px]'>Next-Gen Fintech App</h2>
-          <p className='text-[22px]'>Sweet mornings of spring which I enjoy with my whole heart</p>
+          <p className='text-[22px] font-[Satoshi]'>Sweet mornings of spring which I enjoy with my whole heart</p>
         </div>
         <div className='lg:flex items-center gap-10 mx-auto' >
           {
@@ -22,7 +22,7 @@ const Features = () => {
                   <h2 className='font-medium text-[24px] text-[#0F0840]'>{item.title}</h2>
                 </div>
                 <div>
-                  <p className='text-[20px] text-[#868399]'>{item.description}</p>
+                  <p className='text-[20px] font-[Satoshi] text-[#868399]'>{item.description}</p>
                 </div>
               </div>
              </>
