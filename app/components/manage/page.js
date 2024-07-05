@@ -6,23 +6,21 @@ import PhoneMaster from '@/public/assets/Vendor.webp'
 
 const Manage = () => {
   return (
-    <div className='w-[70%] mx-auto my-[50px] lg:flex  items-center gap-[150px] relative '>
+    <div className='lg:w-[80%] w-[80%] mx-auto md:my-[50px] flex gap-[100px] flex-wrap items-center justify-center relative overflow-hidden'>
       
-      <div className='w-[45%] relative'>
-        {/* <Image src={PhoneVendor} alt='....' width={100} height={100} />
-        <Image src={PhoneMaster} alt='....' width={100} height={100} /> */}
-
-        <div className='w-[500px] h-[500px] overflow-hidden ' >
-          <Image src={PhoneVendor} alt='...' width={500} height={500} className=' z-50 h-[500px] w-[500px]'/>
+      <div className='lg:w-[500px] w-[100%] md:mb-5 lg:mb-0 relative'>
+        
+        <div className='md:w-[500px] h-[500px] ' >
+          <Image src={PhoneVendor} alt='...' width={500} height={500} className='absolute z-10 h-[500px] md:w-[500px]'/>
         </div>
 
-        <div className='absolute left-[10px] top-[20%] w-[500px] h-[400px] bg-[#EEEAFE] rounded-[34px] z-[-1]'>
+        <div className='absolute lg:left-[10px] md:left-[20px] top-[20%] lg:w-[480px] md:w-[350px] w-[300px] h-[380px] bg-[#EEEAFE] rounded-[34px] '>
           
         </div>
-        <Image src={PhoneMaster} alt='...' width={440} height={420} className='w-[440px] absolute h-[420px] left-[30px] top-[10%]'/>
+        <Image src={PhoneMaster} alt='...' width={440} height={420} className='w-[440px] absolute h-[420px] md:left-[30px] top-[10%] z-50'/>
       </div>
 
-      <div className='w-[50%]'>
+      <div className='lg:w-[500px] md:mt-10 w-[90%]'>
         <h1 className='md:text-[46px] text-[34px] font-medium pb-5 leading-[60px] '>
         Manage money with proper calculation
         </h1>

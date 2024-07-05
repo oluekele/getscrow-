@@ -8,13 +8,13 @@ import Arrow from '@/public/assets/hero arrow.svg'
 import Element from '@/public/assets/hero element.svg'
 import Phone from '@/public/assets/phone-p-500.webp'
 
-const HomePage = () => {
+const HomePage = () => { 
   return (
-    <div className='w-full lg:h-[95vh]  lg:mt-[-100px] mt-[-250px] pt-[250px] pb-[100px] lg:pb-0 flex items-center relative justify-between' id='home_bg'>
+    <div className='w-full lg:h-[120vh] lg:mt-[-100px] mt-[-150px] md:pt-[250px] pt-[300px] lg:pt-[350px] pb-[60px] lg:pb-0 flex flex-wrap items-center relative justify-center' id='home_bg'>
       
-      <div className='w-[100%] lg:ml-[80px]  lg:flex items-center justify-between  mx-auto '>
-        <div className='text-[#0f0840] lg:w-[45%] w-[85%] mx-auto flex flex-col items-start lg:mt-[-100px]'>
-          <h1 className='md:text-[76px] text-[54px] font-medium pb-10 md:leading-[80px]'>
+      <div className='w-[100%] lg:w-[80%]  lg:flex  items-center justify-center gap-[200px] mx-auto '>
+        <div className='text-[#0f0840] lg:w-[40%] w-[80%] mx-auto flex flex-col items-start lg:mt-[-100px]'>
+          <h1 className='md:text-[64px] text-[44px]  font-medium pb-10 md:leading-[80px] leading-[70px]'>
               Fastest way to make payment anywhere.
             </h1>
           <div className='flex gap-8 items-center '>
@@ -38,14 +38,14 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className='relative flex lg:w-[40%] w-[80%] mx-auto mt-10 lg:mt-0 items-center justify-center gap-10 ml-[100px] lg:ml-0'>
-          <div className='absolute lg:left-[-150px] left-[-50px] top-[-180px] bg-white rounded-md lg:w-[200px] w-[150px] flex flex-col items-center lg:p-10 p-5 z-[10]'>
+        <div className='relative flex lg:w-[45%] w-[80%] mx-auto pt-[100px] lg:mt-0 items-center justify-center gap-10 md:ml-[100px] ml-[70px] lg:ml-0'>
+          <div className='absolute lg:left-[-150px] left-[-50px] lg:top-[-50px] bg-white rounded-md lg:w-[200px] w-[150px] flex flex-col items-center lg:p-10 p-5 z-[10]'>
             <Image src={SentIcon} alt='...' width={50} height={50} className=' pb-3'/>
             <p className='text-center'>
               $50.00 sent Successfully!
             </p>
           </div>
-          <div className='absolute left-[-100px] hidden lg:flex top-[-270px] '>
+          <div className='absolute left-[-100px] hidden lg:flex top-[-150px] '>
             <Image src={Arrow} alt='...' width={100} height={200} className='w-[80px]' />
           </div>
           <div className='lg:w-[350px] w-[70%] lg:h-[700px] h-[400px] lg:absolute left-0 '>

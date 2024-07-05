@@ -15,7 +15,7 @@ import Funding from "./components/funding/page";
 
 export default function Home() {
   return (
-    <div className="relative bg-[#FAF9FF]">
+    <div className="relative bg-[#FAF9FF] overflow-hidden">
       <Header />
       <HomePage />
       <Features />

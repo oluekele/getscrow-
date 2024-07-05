@@ -7,28 +7,28 @@ import Link from 'next/link'
 
 const SharePage = () => {
   return (
-    <div className='w-[70%] mx-auto py-[100px] lg:flex  items-center gap-[250px] h-[100vh] relative my-[100px]' >
+    <div className='lg:w-[80%] w-[95%] mx-auto md:py-[80px] lg:flex  items-center gap-[250px] h-[100vh] ' >
       
-      <div className='lg:w-[500px] h-[500px]  ml-[-100px]' >
+      <div className='lg:w-[45%] h-[500px] lg:ml-0 ml-10 relative ' >
 
-        <div className='absolute left-[70px] top-[30%] w-[450px] h-[400px] bg-[#EEEAFE] rounded-[34px] z-[0]'>
+        <div className='absolute lg:left-[170px]  top-[30%] lg:w-[450px] w-[420px] h-[400px] bg-[#EEEAFE] rounded-[34px] z-[0]'>
           
         </div>
-        <Image src={Chat} alt='...' width={350} height={200} className='w-[350px] absolute h-[200px]  top-[40%] z-50'/>
+        <Image src={Chat} alt='...' width={350} height={200} className='md:w-[350px] w-[300px] absolute md:h-[200px] h-[150px] lg:left-[10%] md:top-[40%] top-[50%] z-50 ml-[-70px]'/>
 
-        <div className=' absolute w-[750px]  top-[20%] left-[-75.5px] h-[566px] overflow-hidden mt-[15px] z-[2]'>
-          <video autoPlay loop className='w-[750px] h-[650px]' id='video'  >
+        <div className=' absolute lg:w-[750px] top-5 h-[566px] overflow-hidden mt-[14.5px] lg:left-[22px] z-[2]'>
+          <video autoPlay loop className='md:w-[750px] w-[700px] md:h-[650px] h-[700px]' id='video'  >
             <source src="https://assets-global.website-files.com/635e20f77318521304947d8d/635e7fe2e19fbd717f0f8ceb_pexels-anthony-shkraba-production-compressesd-transcode.mp4" data-wf-ignore="true"/> 
             <source src="https://assets-global.website-files.com/635e20f77318521304947d8d/635e7fe2e19fbd717f0f8ceb_pexels-anthony-shkraba-production-compressesd-transcode.webm" data-wf-ignore="true"/> 
           </video>
         </div>
 
-        <div className='w-[800px] h-[600px] overflow-hidden absolute z-[5]' >
+        <div className='lg:w-[800px] h-[600px] overflow-hidden absolute z-[5]' >
           <Image src={Frame} alt='...' width={800} height={800} className='h-[800px] w-[800px] ' />
         </div>
       </div>
       
-      <div className='text-[##0f0840] lg:w-[500px]'>
+      <div className='text-[##0f0840] lg:w-[45%] mt-[200px] w-[80%] mx-auto'>
         <h1 className='md:text-[46px] text-[34px] font-medium pb-5 leading-[60px] '>
         Create and share video messages
         </h1>
