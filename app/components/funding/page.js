@@ -8,9 +8,9 @@ const Funding = () => {
   
   return (
     <div className='bg-[#6D37FD] py-[100px] w-full '>
-      <div className='flex items-center justify-between w-[70%] mx-auto font-medium text-white'>
+      <div className='flex  justify-between lg:w-[70%] w-[85%] mx-auto font-medium text-white'>
         <div>
-          <h2 className=' text-[86px] pb-3'>
+          <h2 className=' lg:text-[86px] md:text-[56px] text-[34px] pb-3'>
             2M+
           </h2>
           <p className='flex items-center gap-4'>
@@ -19,7 +19,7 @@ const Funding = () => {
           </p>
         </div>
         <div>
-          <h2 className='font-bold text-[86px] pb-3'>
+          <h2 className='font-bold lg:text-[86px] md:text-[56px] text-[34px] pb-3'>
             30K
           </h2>
           <p className='flex items-center gap-4'>
@@ -28,7 +28,7 @@ const Funding = () => {
           </p>
         </div>
         <div>
-          <h2 className='font-bold text-[86px] pb-3'>
+          <h2 className='font-bold lg:text-[86px] md:text-[56px] text-[34px] pb-3'>
             10M
           </h2>
           <p className='flex items-center gap-4'>

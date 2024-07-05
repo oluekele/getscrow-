@@ -6,13 +6,13 @@ import Tech from './data'
 const Features = () => {
   const tech = Tech
   return (
-    <div className='bg-[#6D37FD] py-[200px] w-full '>
-      <div className='w-[80%] mx-auto'>
-        <div className='text-white font-medium pb-[80px]'>
-          <h2 className='pb-2 text-[76px]'>Next-Gen Fintech App</h2>
-          <p className='text-[22px] font-[Satoshi]'>Sweet mornings of spring which I enjoy with my whole heart</p>
+    <div className='bg-[#6D37FD] lg:py-[200px] py-[60px] w-full '>
+      <div className='lg:w-[80%] w-[80%] mx-auto'>
+        <div className='text-white font-medium lg:pb-[80px] pb-[50px]'>
+          <h2 className='pb-2 lg:text-[76px] md:text-[60px] text-[50px]'>Next-Gen Fintech App</h2>
+          <p className='text-[20px] font-[Satoshi]'>Sweet mornings of spring which I enjoy with my whole heart</p>
         </div>
-        <div className='lg:flex items-center gap-10 mx-auto' >
+        <div className='flex flex-wrap items-center justify-center gap-10 mx-auto' >
           {
             tech.map((item) => (
              <>

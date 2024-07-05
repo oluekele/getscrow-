@@ -29,15 +29,16 @@
 
 .navbar{
   background-color: #fff;
-  position: sticky;
+  position: fixed;
   top: 0px;
+  width: 100%;
   
 }
 .none{
   background-color: transparent;
-  position: sticky;
+  position: fixed;
   top: 0px;
-  
+  width: 100%;
 }
 
 #home_bg{

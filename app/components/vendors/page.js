@@ -8,8 +8,8 @@ import PhoneMaster from '@/public/assets/Vendor.webp'
 
 const Vendors = () => {
   return (
-    <div className='w-[70%] mx-auto py-[100px] lg:flex  items-center gap-[150px]  relative my-[50px]'>
-      <div className='w-[45%]'>
+    <div className='lg:w-[70%] w-[80%] mx-auto py-[80px] mt-[380px] lg:mt-0 flex flex-wrap items-center justify-center gap-[100px]  relative my-[50px]'>
+      <div className='lg:w-[500px] '>
         <h1 className='md:text-[46px] text-[34px] font-medium pb-5 leading-[60px] '>
           Pay your vendors quickly anywhere
         </h1>
@@ -23,18 +23,16 @@ const Vendors = () => {
         </div>
       </div>
 
-      <div className='w-[45%] relative'>
-        {/* <Image src={PhoneVendor} alt='....' width={100} height={100} />
-        <Image src={PhoneMaster} alt='....' width={100} height={100} /> */}
-
-        <div className='w-[500px] h-[500px] overflow-hidden ' >
-          <Image src={PhoneVendor} alt='...' width={500} height={500} className=' z-50 h-[500px] w-[500px]'/>
+      <div className='lg:w-[500px] w-full relative ml-10 lg:ml-0'>
+        
+        <div className='lg:w-[500px] w-full md:h-[500px] h-[400px] overflow-hidden ' >
+          <Image src={PhoneVendor} alt='...' width={500} height={500} className='absolute z-10 h-[400px] md:h-[500px] md:w-[500px] w-full'/>
         </div>
 
-        <div className='absolute left-[10px] top-[20%] w-[500px] h-[400px] bg-[#EEEAFE] rounded-[34px] z-[-1]'>
+        <div className='absolute lg:left-[15px] md:left-[45px] top-[20%] lg:w-[480px] md:w-[410px] w-full h-[300px] md:h-[380px] bg-[#EEEAFE] rounded-[34px] z-[0]'>
           
         </div>
-        <Image src={PhoneMaster} alt='...' width={420} height={420} className='w-[420px] absolute h-[420px] left-[50px] top-[10%] ' id='scaleVendor'/>
+        <Image src={PhoneMaster} alt='...' width={420} height={420} className='lg:w-[420px] w-[380px] absolute h-[420px] lg:left-[50px] md:left-[60px] md:top-[10%] top-[-10px] z-50 ' id='scaleVendor'/>
       </div>
     </div>
   )

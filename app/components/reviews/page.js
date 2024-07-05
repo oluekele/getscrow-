@@ -31,9 +31,9 @@ const Reviews = () => {
 
 
   return (
-    <div className='my-[100px] w-full overflow-hidden z-10'>
-      <div className='w-[80%] mx-auto flex items-center justify-between '>
-        <h2 className='w-[300px] text-[#333333] font-medium text-[46px]'>Customer Reviews..</h2>
+    <div className='my-[100px] w-[100%] overflow-hidden z-10'>
+      <div className='lg:w-[80%] w-[95%] mx-auto flex items-center justify-between '>
+        <h2 className='lg:w-[300px] w-[50%] text-[#333333] font-medium text-[46px]'>Customer Reviews..</h2>
         <div className='flex gap-4 items-center'>
           <div className='w-[40px] h-[40px] rounded-full border-2 border-[#0F0840] flex items-center justify-center cursor-pointer hover:bg-[#D58836] hover:ease-in-out hover:border-[#D58836]' onClick={()=> myFunction(-1, 550)}>
             <FaArrowLeft />
@@ -48,14 +48,14 @@ const Reviews = () => {
         
       </div>
       
-      <div className='flex items-center gap-10 w-[3000px]' id='container'>
+      <div className='flex items-center gap-10 w-[3000px] overflow-hidden' id='container'>
         {
           customer.map((item, idx) => (
             <>
-              <div className='bg-[#fff] mt-[100px] w-[500px] p-2 flex items-center gap-10 rounded-[16px] shadow-md' key={idx}>
-                <Image src={require("../../../public/assets/" + item.icon)} alt='....' width={100} height={100} className='rounded-[8px] w-[200px] h-[200px]'/>
+              <div className='bg-[#fff] md:mt-[100px] mt-10 lg:w-[500px] md:w-[450px] w-[350px] p-2 flex items-center gap-10 rounded-[16px] shadow-md' key={idx}>
+                <Image src={require("../../../public/assets/" + item.icon)} alt='....' width={100} height={100} className='rounded-[8px] md:w-[200px] md:h-[200px] h-[100px]'/>
                 <div>
-                  <Image src={Quote} alt='....' width={100} height={100} className='w-[50px] mb-2'/>
+                  <Image src={Quote} alt='....' width={100} height={100} className='md:w-[50px] w-[20px] mb-2'/>
                   <p className='text-[18px] text-[#54506F] text-start font-medium font-[Satoshi] mb-3'>
                     {item.description}
                   </p>
@@ -63,7 +63,7 @@ const Reviews = () => {
                     {item.title}
                   </h1>
                   <p className='flex items-center gap-3'>
-                    <Image src={Rating} alt='....' width={100} height={100} className='w-[200px]'/>
+                    <Image src={Rating} alt='....' width={100} height={100} className='md:w-[200px] w-[100px]'/>
                   </p>
 
                 </div>
