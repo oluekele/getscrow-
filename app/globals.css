@@ -8,22 +8,22 @@
 }
 
 #btn{
-  background-image: linear-gradient(to right, #4e2ff5, #793aff);
+  background-image: linear-gradient(to right, #010080, #010080);
   transition: all 0.2s ease-in-out;
 }
 
 #btn:hover{
   color: black;
-  background-image: linear-gradient(to right, #ffb459, #ffb459) ;
+  background-image: linear-gradient(to right, #FF7F00, #FF7F00) ;
 }
 
 #play:hover{
-  background-image: linear-gradient(to right, #ffb459, #ffb459);
-  border: #ffb459;
+  background-image: linear-gradient(to right, #FF7F00, #FF7F00);
+  border: #FF7F00;
 }
 
 .active{
-  color: #502ff5; 
+  color: #010080; 
   padding-bottom: 0.5rem;
 }
 

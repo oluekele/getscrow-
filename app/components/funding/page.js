@@ -7,7 +7,7 @@ import { FaRegHeart } from 'react-icons/fa';
 const Funding = () => {
   
   return (
-    <div className='bg-[#6D37FD] py-[100px] w-full '>
+    <div className='bg-[#010080] py-[100px] w-full '>
       <div className='flex  justify-between lg:w-[70%] w-[85%] mx-auto font-medium text-white'>
         <div>
           <h2 className=' lg:text-[86px] md:text-[56px] text-[34px] pb-3'>

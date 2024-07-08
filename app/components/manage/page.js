@@ -6,7 +6,7 @@ import PhoneMaster from '@/public/assets/Vendor.webp'
 
 const Manage = () => {
   return (
-    <div className='lg:w-[80%] w-[80%] mx-auto md:my-[50px] flex gap-[100px] flex-wrap items-center justify-center relative overflow-hidden'>
+    <div className='lg:w-[95%] w-[80%] mx-auto md:my-[50px] flex gap-[200px] flex-wrap items-center justify-center relative overflow-hidden'>
       
       <div className='lg:w-[500px] w-[100%] md:mb-5 lg:mb-0 relative'>
         
@@ -14,7 +14,7 @@ const Manage = () => {
           <Image src={PhoneVendor} alt='...' width={500} height={500} className='absolute z-10 h-[500px] md:w-[500px]'/>
         </div>
 
-        <div className='absolute lg:left-[10px] md:left-[20px] top-[20%] lg:w-[480px] md:w-[350px] w-[300px] h-[380px] bg-[#EEEAFE] rounded-[34px] '>
+        <div className='absolute lg:left-[10px] md:left-[50px] left-[20px] top-[20%] lg:w-[480px] md:w-[420px] w-[400px] h-[380px] bg-[#EEEAFE] rounded-[34px] '>
           
         </div>
         <Image src={PhoneMaster} alt='...' width={440} height={420} className='w-[440px] absolute h-[420px] md:left-[30px] top-[10%] z-50'/>
@@ -24,7 +24,7 @@ const Manage = () => {
         <h1 className='md:text-[46px] text-[34px] font-medium pb-5 leading-[60px] '>
         Manage money with proper calculation
         </h1>
-        <p className='text-[18px] w-[85%] mx-auto pb-5 text-[#54506F] font-medium font-[Satoshi]'>
+        <p className='w-[80%] text-[18px] pb-5 text-[#54506F] font-medium font-[Satoshi]'>
           A small river named duden flows by their place and supplies it with the necessary regelialia. It is a more paradisematic country.
         </p>
         <div className='w-[85%] mx-auto font-medium font-[Satoshi]'>

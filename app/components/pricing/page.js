@@ -20,11 +20,11 @@ const Pricing = () => {
       <div className='flex items-center justify-center'>
         <div className='flex items-center gap-4 text-[22px] font-medium'>
           <span>Monthly</span>
-          <div className='border-[2px] border-[#5A2FF5] px-2 py-1 rounded-full flex items-center justify-center gap-3'>
+          <div className='border-[2px] border-[#010080] px-2 py-1 rounded-full flex items-center justify-center gap-3'>
             {
               action === "year" && 
               <div className='flex items-center gap-2'>
-                <FaCircle size={25} className='cursor-pointer text-[#5A2FF5]'/>
+                <FaCircle size={25} className='cursor-pointer text-[#010080]'/>
             
                 <FaCircle size={25} className='cursor-pointer text-[#fff] ' onClick={()=> {
                   setAction("month")
@@ -38,7 +38,7 @@ const Pricing = () => {
                   setAction("year")
                 }}/>
             
-                <FaCircle size={25} className='cursor-pointer text-[#5A2FF5] ' />
+                <FaCircle size={25} className='cursor-pointer text-[#010080] ' />
               </div>
             }
           

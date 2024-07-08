@@ -21,11 +21,11 @@ export default function Home() {
       <Features />
       <SharePage />
       <Vendors />
-      <Manage />
-      <Paytime />
+      {/* <Manage /> */}
+      {/* <Paytime /> */}
       <Funding />
       <Reviews />
-      <Pricing />
+      {/* <Pricing /> */}
       <Questions />
       <Footer />
     </div>

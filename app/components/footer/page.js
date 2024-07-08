@@ -29,11 +29,11 @@ const Footer = () => {
               
               <div>
                 <div className='flex pb-1'>
-                  <MdOutlineStarPurple500 size={20} className='text-[#D58836]'/>
-                  <MdOutlineStarPurple500 size={20} className='text-[#D58836]'/>
-                  <MdOutlineStarPurple500 size={20} className='text-[#D58836]'/>
-                  <MdOutlineStarPurple500 size={20} className='text-[#D58836]'/>
-                  <MdOutlineStarPurple500 size={20} className='text-[#D58836]'/>
+                  <MdOutlineStarPurple500 size={20} className='text-[##FF7F00]'/>
+                  <MdOutlineStarPurple500 size={20} className='text-[##FF7F00]'/>
+                  <MdOutlineStarPurple500 size={20} className='text-[##FF7F00]'/>
+                  <MdOutlineStarPurple500 size={20} className='text-[##FF7F00]'/>
+                  <MdOutlineStarPurple500 size={20} className='text-[##FF7F00]'/>
                 </div>
                 <h3>4.9/5 &#09; Android</h3>
               </div>
@@ -42,30 +42,26 @@ const Footer = () => {
         </div>
         <div className='lg:flex justify-between w-[80%] lg:w-[70%] py-10'>
           <p className='md:flex items-center gap-2 text-[18px] text-[#ffffff80] font-medium pb-4'>
-            Copyright © RNN Studio. Powered by
+            Copyright © GetScroll {new Date().getFullYear()} All rights reserved. Powered by
             <Link href='/' className='hover:text-[#fff]'>Webflow</Link>
             <Link href='/' className='hover:text-[#fff]'>License</Link>
             <Link href='/' className='hover:text-[#fff]'>Changelog</Link>
           </p>
           <div className='flex gap-8 transition-all pt-5'>
-            <Link href='' className='w-[40px] h-[40px] cursor-pointer hover:bg-[#D58836] hover:ease-in-out  rounded-full text-[#575279] p-2 flex items-center bg-[#fff]'>
+            <Link href='' className='w-[40px] h-[40px] cursor-pointer hover:bg-[##FF7F00] hover:ease-in-out  rounded-full text-[#575279] p-2 flex items-center bg-[#fff]'>
               <FaLinkedinIn size={20} /></Link>
 
-              <Link href='' className='w-[40px] h-[40px] cursor-pointer hover:bg-[#D58836] hover:ease-in-out  rounded-full text-[#575279] p-2 bg-[#fff] flex items-center'>
+              <Link href='' className='w-[40px] h-[40px] cursor-pointer hover:bg-[##FF7F00] hover:ease-in-out  rounded-full text-[#575279] p-2 bg-[#fff] flex items-center'>
               <FaFacebookF size={20} />
             </Link>
 
-            <Link href=' ' className='w-[40px] h-[40px] cursor-pointer hover:bg-[#D58836] hover:ease-in-out  rounded-full text-[#575279] p-2 bg-[#fff] flex items-center'>
+            <Link href=' ' className='w-[40px] h-[40px] cursor-pointer hover:bg-[##FF7F00] hover:ease-in-out  rounded-full text-[#575279] p-2 bg-[#fff] flex items-center'>
               <FaTwitter size={20} />
             </Link>
             
           </div>
         </div>
-        <div className='w-[180px] h-[40px] rounded-md pl-5 bg-white flex items-center gap-2 z-[99999] fixed right-4 bottom-[40px]'>
-          <Image src={Icon1} alt='....' width={30} height={40} className=''/>
-          <Image src={Icon2} alt='....' width={100} height={40} />
-
-        </div>
+        
       </div>
     </>
 

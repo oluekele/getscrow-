@@ -15,12 +15,12 @@ const Questions = () => {
       <div className=' cursor-pointer mb-8 mx-auto flex flex-wrap justify-center lg:gap-[50px] gap-[30px]'>
         <Together label="Where can I subscribe to your newsletter?">
           <p>
-            A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot.
+            More details coming soon
           </p>
         </Together>
         <Together label="Where on your website can I open a customer account?">
           <p>
-            A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot.
+            More details coming soon
           </p>
         </Together>
         
@@ -29,12 +29,12 @@ const Questions = () => {
       <div className=' cursor-pointer mb-8 mx-auto flex flex-wrap  justify-center gap-[50px]'>
         <Together label="Where can in edit my address?" >
           <p>
-            A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot.
+            More details coming soon
           </p>
         </Together>
         <Together label="Where on your website can I open a customer account?">
           <p>
-            A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot.
+            More details coming soon
           </p>
         </Together>
         
@@ -43,12 +43,12 @@ const Questions = () => {
       <div className=' cursor-pointer mb-8 mx-auto flex   justify-center gap-[50px] flex-wrap'>
         <Together label="Can I order a free copy of a magazine to sample?">
           <p>
-            A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot.
+            More details coming soon
           </p>
         </Together>
         <Together label="Do you also have a physical store?">
           <p>
-            A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot.
+            More details coming soon
           </p>
         </Together>
         
@@ -57,12 +57,12 @@ const Questions = () => {
       <div className=' cursor-pointer mb-8 mx-auto flex flex-wrap  justify-center gap-[50px]'>
         <Together label="Do you accept orders via Phone or E-mail?">
           <p>
-            A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot.
+            More details coming soon
           </p>
         </Together>
         <Together label="Do I have the right to return an item?">
           <p>
-            A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot.
+            More details coming soon
           </p>
         </Together>
         

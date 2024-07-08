@@ -7,11 +7,11 @@ import Link from 'next/link'
 
 const SharePage = () => {
   return (
-    <div className='lg:w-[80%] w-[95%] mx-auto md:py-[80px] lg:flex  items-center gap-[250px] h-[100vh] ' >
+    <div className='w-[85%] mx-auto md:py-[80px] flex flex-wrap items-center gap-[100px] h-[100vh] ' >
       
-      <div className='lg:w-[45%] h-[500px] lg:ml-0 ml-10 relative ' >
+      <div className='lg:w-[600px] h-[500px] lg:ml-0 ml-10 relative ' >
 
-        <div className='absolute lg:left-[170px]  top-[30%] lg:w-[450px] w-[420px] h-[400px] bg-[#EEEAFE] rounded-[34px] z-[0]'>
+        <div className='absolute lg:left-[170px] md:left-[22%] top-[30%] lg:w-[450px] w-[420px] h-[400px] bg-[#EEEAFE] rounded-[34px] z-[0]'>
           
         </div>
         <Image src={Chat} alt='...' width={350} height={200} className='md:w-[350px] w-[300px] absolute md:h-[200px] h-[150px] lg:left-[10%] md:top-[40%] top-[50%] z-50 ml-[-70px]'/>
@@ -28,14 +28,14 @@ const SharePage = () => {
         </div>
       </div>
       
-      <div className='text-[##0f0840] lg:w-[45%] mt-[200px] w-[80%] mx-auto'>
+      <div className='text-[##0f0840] lg:w-[500px] mt-[200px] w-[80%] mx-auto'>
         <h1 className='md:text-[46px] text-[34px] font-medium pb-5 leading-[60px] '>
         Create and share video messages
         </h1>
-        <p className='text-[18px] w-[85%] mx-auto pb-5 text-[#54506F] font-medium font-[Satoshi]'>
+        <p className='text-[18px]  pb-5 text-[#54506F] font-medium font-[Satoshi]'>
           A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot.
         </p>
-        <div className='flex gap-8 w-[85%] mx-auto  items-center '>
+        <div className='flex gap-8  items-center '>
           <button className='flex items-center text-[18px] h-[50px] w-[150px] text-[#0f0840] rounded-[8px] border-2 border-[#0f0840]' id='play' >
           <Link href="/" className='flex gap-2 items-center mx-auto'>
             Play Store
