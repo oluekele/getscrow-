@@ -69,15 +69,15 @@ const Header = () => {
           
         </div>
         <div className='lg:flex items-center hidden gap-10 text-[18px]'>
-          <h2><Link activeClass='active' spy={true} smooth={true} offset={-100} duration={500} href="home" className={navContent === "home" ? "text-[#502ff5]  hover:text-[#502ff5] " : "text[#0f0840]"}>Home</Link></h2>
+          <h2><Link activeClass='active' spy={true} smooth={true} offset={-100} duration={500} href="home" className={navContent === "home" ? "text-[#502ff5] " : "text[#0f0840] hover:text-[#502ff5]"}>Home</Link></h2>
 
-          <h2><Link activeClass='active' spy={true} smooth={true} offset={-100} duration={500} href="feature" className={navContent === "feature" ? "text-[#502ff5]  hover:text-[#502ff5] " : "text[#0f0840]"}>Features</Link></h2>
+          <h2><Link activeClass='active' spy={true} smooth={true} offset={-100} duration={500} href="feature" className={navContent === "feature" ? "text-[#502ff5]" : "text[#0f0840] hover:text-[#502ff5] "}>Features</Link></h2>
 
-          <h2><Link activeClass='active' spy={true} smooth={true} offset={-100} duration={500} href="reviews" className={navContent === "review" ? "text-[#502ff5]  hover:text-[#502ff5] " : "text[#0f0840]"}>Reviews</Link></h2>
+          <h2><Link activeClass='active' spy={true} smooth={true} offset={-100} duration={500} href="reviews" className={navContent === "review" ? "text-[#502ff5] " : "text[#0f0840]  hover:text-[#502ff5] "}>Reviews</Link></h2>
 
-          <h2><Link activeClass='active' spy={true} smooth={true} offset={-100} duration={500} href="/pricing" className={navContent === "pricing" ? "text-[#502ff5]  hover:text-[#502ff5] " : "text[#0f0840]"}>Pricing</Link></h2>
+          <h2><Link activeClass='active' spy={true} smooth={true} offset={-100} duration={500} href="/pricing" className={navContent === "pricing" ? "text-[#502ff5] " : "text[#0f0840] hover:text-[#502ff5] "}>Pricing</Link></h2>
 
-          <h2><Link activeClass='active' spy={true} smooth={true} offset={-100} duration={500} href="questions" className={navContent === "questions" ? "text-[#502ff5]  hover:text-[#502ff5] " : "text[#0f0840]"}>Faqs</Link></h2>
+          <h2><Link activeClass='active' spy={true} smooth={true} offset={-100} duration={500} href="questions" className={navContent === "questions" ? "text-[#502ff5] " : "text[#0f0840]  hover:text-[#502ff5] "}>Faqs</Link></h2>
 
           <h2><Link activeClass='active' spy={true} smooth={true} offset={-100} duration={500} href="/" className='text[#0f0840] hover:text-[#502ff5]'>Components</Link></h2>
         </div>
