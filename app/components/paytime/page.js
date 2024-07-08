@@ -16,7 +16,7 @@ const Paytime= () => {
       Share your everyday moments in limitless ways
       </p>
 
-      <div className='lg:w-[80%] w-[95%] mx-auto flex flex-wrap  items-center gap-[100px] justify-center mt-[50px]'>
+      <div className='lg:w-[95%] w-[95%] mx-auto flex flex-wrap  items-center gap-[200px] justify-center mt-[50px]'>
 
         <div className='lg:w-[500px] w-[80%]'>
           <Image src={Payment} alt='...' width={500} height={500} />

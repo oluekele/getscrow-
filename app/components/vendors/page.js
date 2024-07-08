@@ -8,15 +8,15 @@ import PhoneMaster from '@/public/assets/Vendor.webp'
 
 const Vendors = () => {
   return (
-    <div className='lg:w-[70%] w-[80%] mx-auto py-[80px] mt-[380px] lg:mt-0 flex flex-wrap items-center justify-center gap-[100px]  relative my-[50px]'>
+    <div className='lg:w-[95%] w-[80%] mx-auto py-[80px] mt-[380px] lg:mt-0 flex flex-wrap items-center justify-center gap-[100px]  relative my-[50px]'>
       <div className='lg:w-[500px] '>
         <h1 className='md:text-[46px] text-[34px] font-medium pb-5 leading-[60px] '>
           Pay your vendors quickly anywhere
         </h1>
-        <p className='text-[18px] w-[85%] mx-auto pb-5 text-[#54506F] font-medium font-[Satoshi]'>
+        <p className='text-[18px] pb-5 text-[#54506F] w-[80%] font-medium font-[Satoshi]'>
           A small river named duden flows by their place and supplies it with the necessary regelialia. It is a more paradisematic country.
         </p>
-        <div className='w-[85%] mx-auto flex gap-4'>
+        <div className='w-[85%] flex gap-4'>
           <Image src={Visa} alt='....' width={100} height={100} />
           <Image src={Gpay} alt='....' width={100} height={100} />
           <Image src={Master} alt='....' width={100} height={100} />
